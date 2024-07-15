@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # s.add_runtime_dependency("faraday", ">= 1.0.0", "< 3.0")
+  # s.add_runtime_dependency("googleauth", "~> 1")
   s.add_runtime_dependency("faraday", "~> 0.13")
-  s.add_runtime_dependency("googleauth", "~> 1")
+  s.add_runtime_dependency("googleauth", "~> 0.9.0")
 end
